@@ -55,7 +55,7 @@ const Icon = styled.div`
   color: white;
   margin-bottom: 30px;
   transform: translate(0%, -50%);
-  transition: transform 0.3s ease;
+  transition: transform 1.25s ease;
 
   ${CardBox}:hover & {
     //this is styled-components selector trick
@@ -65,7 +65,8 @@ const Icon = styled.div`
 const Text = styled.p`
   visibility: hidden; /* hides but keeps space */
   opacity: 0; /* fully transparent */
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
