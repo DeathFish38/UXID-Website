@@ -47,6 +47,7 @@ const JoinSection = styled.div`
   box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2),
     -1px -1px 1px rgba(255, 255, 255, 0.2);
   position: relative;
+  z-index: -1;
 `;
 
 const LeftContent = styled.div`
@@ -63,6 +64,20 @@ const RightImage = styled.img`
   position: absolute;
   right: -50px;
   top: -50px;
+
+  // style the logo img more responsive
+  // medium screen
+  @media (max-width: 1024) {
+    width: 250px;
+    right: -30px;
+    top: -30px;
+  }
+  //small screen
+  @media (max-width: 500px) {
+    width: 200px;
+    right: -10px;
+    top: -10px;
+  }
 `;
 
 function Join() {
