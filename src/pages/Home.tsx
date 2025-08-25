@@ -37,15 +37,15 @@ const Home = () => {
         </TitleContainer>
         <CardContainer>
           <Card
-            icon={<FontAwesomeIcon icon={faBriefcase} size={"4x"} />}
+            icon={<FontAwesomeIcon icon={faBriefcase} size={"4x"} style={{ marginBottom: "10px" }}/>}
             text="To enhance the interaction designers of tomorrow’s portfolios by providing them with design projects from clients"
           />
           <Card
-            icon={<FontAwesomeIcon icon={faArrowUp} size={"4x"} />}
+            icon={<FontAwesomeIcon icon={faArrowUp} size={"4x"} style={{ marginBottom: "10px" }}/>}
             text="To help students improve their soft and technical skills through carefully thought-out workshops"
           />
           <Card
-            icon={<FontAwesomeIcon icon={faBrain} size={"4x"} />}
+            icon={<FontAwesomeIcon icon={faBrain} size={"4x"} style={{ marginBottom: "10px" }}/>}
             text="To provide an opportunity where students can ideate, cooperate, network, and improve themselves"
           />
         </CardContainer>
