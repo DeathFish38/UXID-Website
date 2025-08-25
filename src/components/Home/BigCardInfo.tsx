@@ -52,6 +52,7 @@ const BigCardInfo = () => {
             fontSize: 16,
             fontWeight: 500,
             letterSpacing: 0.5,
+            boxShadow:"0px 4px 6px rgba(201, 200, 200, 0.97)",
           }}
         >
           uxidsociety@gmail.com
@@ -70,7 +71,7 @@ const BigCardInfo = () => {
         <span
           style={{
             fontWeight: 700,
-            fontSize: 36,
+            fontSize: 64,
             color: "#D1D1D1",
             letterSpacing: 1.5,
             textAlign: "center",
